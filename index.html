@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang= 'en-us'>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body style = "background-color: rgb(219, 219, 218);">
+
+</div>
+<div class="navbar">
+    <div class="head">
+        <a href = "Untitled-1.html" ><strong>Laititude</strong></a>
+    </div>  
+    <div class="container  justify-content-lg-end">
+        <div class="dropdown ">
+            <button class="navbar-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="max_temp.html">Max temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind_speed.html">Wind speed</a>
+            </div>
+          </div>
+        <a class="left-head nav-item " target="blank" href="comparison.html">Comparison</a>
+        <a class="left-head nav-item "target="blank" href="data.html">Data</a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-7  col-md-12 col-sm-12">
+            <div class="box" style="padding-bottom: 70px">
+                <h1><strong>Summary: Latitude vs. X</strong></h1>
+                <a target ="blank" href="assets/images/Fig1.png">
+                <img src="assets/images/Fig1.png">
+                </a>
+                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.To accomplish this analysis, we first pulled data from the OpenWeatherAPI to assemble a dataset on over 500 cities.</p> 
+
+                <p>After assembling the datasets, we used Matplotlib to plot various aspects of the weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidiy. This site provides the source data and visualizations created as part of the analysis, as well as explanations and decriptions of any trends and correlations.</p>
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12">
+            <div class="box">
+                <h1><strong> Visualization</strong></h1>
+                <div class="container">
+                    <div class="row" >
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <a target ="blank" href="max_temp.html">
+                            <img src="assets/images/Fig1.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <a target ="blank" href="humidity.html">
+                            <img src="assets/images/Fig2.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row" style ="padding-bottom:70px">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <a target ="blank" href="cloud.html">
+                            <img src="assets/images/Fig3.png">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">                        
+                            <a target ="blank" href="wind_speed.html">
+                            <img src="assets/images/Fig4.png">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+

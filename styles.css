@@ -1,0 +1,90 @@
+.navbar .head
+a{background-color: rgb(3, 4, 80);
+    font-size: xx-large;
+    font-family:serif;
+    color:white; 
+    float:left;
+    text-decoration: none;}
+.navbar
+{background-color: white;
+    padding: 20px;
+    margin-bottom: 60px;
+    }
+
+.justify-content-end{padding: 20px;}
+.navbar-toggle{border: none;
+    background-color: white;}
+.dropdown{padding-right: 20px;}
+.navbar .container .left-head{padding-right: 20px;}
+
+
+.col-lg-7 a{float: left;
+    font-size: x-large;}
+.col-lg-7 h1{color: rgb(3, 4, 80);
+    padding: 60px;
+    word-spacing: 5px;
+    font-family:serif;}
+.col-lg-7 img{width: 300px;height: 300px;}
+.col-lg-5 h1{color: rgb(3, 4, 80);
+    padding: 60px;
+    font-family:serif;}
+
+.col-lg-6 img{width: 200px;height: 200px;}
+.box{background-color: white; padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;}
+
+.nav-item{color: black;
+    text-decoration: none;}
+
+.dropdown{background: white;}
+.col-lg-7 p{word-spacing: 2px;}
+
+.maxtemp img{width: 700px;height: 500px;}
+.maxtemp p{text-align: left;}
+
+.humidity img{width: 700px;height: 500px;}
+.humidity p{text-align: left;}
+
+.cloud img{width: 700px;height: 500px;}
+.cloud p{text-align: left;}
+
+.wind img{width: 700px;height: 500px;}
+.wind p{text-align: left;}
+
+.comparison h1{padding: 60px;
+    color: rgb(3, 4, 80);
+    color: rgb(3, 4, 80);
+    font-family:serif;}
+.comparison img{height: 500px; width: 600px;}
+.comparison h3{text-align: center;
+    color: rgb(3, 4, 80);
+    font-family:serif;}
+.comparison p{padding-left: 60px;}
+
+.data h1{padding: 40px;
+    color: rgb(3, 4, 80);
+    font-family:serif;}
+
+.col-md-12>.cloud img{width: 600px;height: 400px;}
+.col-sm-12>.cloud img{width: 450px;height: 300px;}
+
+.col-md-12>.wind img{width: 600px;height: 400px;}
+.col-sm-12>.wind img{width: 450px;height: 300px;}
+
+.col-md-12>.humidity img{width: 600px;height: 400px;}
+.col-sm-12>.humidity img{width: 450px;height: 300px;}
+
+.col-md-12>.maxtemp img{width: 600px;height: 400px;}
+.col-sm-12>.maxtemp img{width: 450px;height: 300px;}
+
+.comparison>.col-md-12 img{height: 400px; width: 500px;}
+.comparison>.col-sm-12 img{height: 300px; width: 400px;}
+
+@media(max-width: 992px){
+    .navbar {
+        color: white;
+        font-size: 30px;
+        background-color: rgb(3, 4, 80);
+        padding: 10px;}
+    .left-head{color: white}}
